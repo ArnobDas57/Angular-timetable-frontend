@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CourseSearchComponent } from './course-search/course-search.component';
+import { CreateSchedComponent } from './create-sched/create-sched.component';
 
 @NgModule({
   imports: [
@@ -19,7 +20,8 @@ import { CourseSearchComponent } from './course-search/course-search.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    CourseSearchComponent
+    CourseSearchComponent,
+    CreateSchedComponent
   ],
   bootstrap: [ AppComponent ]
 })
