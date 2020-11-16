@@ -1,8 +1,9 @@
 /* AppComponent's private CSS styles */
 h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     margin-bottom: 0;
     color: #4F2683;
+    font-family: 'Hellmuth';
   }
   h2 {
     font-size: 2em;
