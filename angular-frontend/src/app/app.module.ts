@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CourseSearchComponent } from './course-search/course-search.component';
 import { CreateSchedComponent } from './create-sched/create-sched.component';
+import { DisplayComponent } from './display/display.component';
 
 @NgModule({
   imports: [
@@ -21,7 +22,8 @@ import { CreateSchedComponent } from './create-sched/create-sched.component';
     AppComponent,
     HomeComponent,
     CourseSearchComponent,
-    CreateSchedComponent
+    CreateSchedComponent,
+    DisplayComponent
   ],
   bootstrap: [ AppComponent ]
 })
