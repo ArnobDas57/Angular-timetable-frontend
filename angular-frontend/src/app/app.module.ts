@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { CourseSearchComponent } from './course-search/course-search.component';
 
 @NgModule({
   imports: [
@@ -17,7 +18,8 @@ import { HomeComponent } from './home/home.component';
   ],
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    CourseSearchComponent
   ],
   bootstrap: [ AppComponent ]
 })
